@@ -1,0 +1,192 @@
+/* Blog layout: Excerpt 
+------------------------- */
+.post_layout_excerpt {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.post_layout_excerpt + .post_layout_excerpt {
+  margin-top: 80px;
+}
+
+.post_layout_excerpt:not(.sticky) + .post_layout_excerpt:not(.sticky) {
+  padding-top: 80px;
+  border-top: 7px solid #eee;
+}
+
+.post_layout_excerpt.sticky {
+  padding: 2em;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.post_layout_excerpt .post_featured {
+  display: inline-block;
+}
+
+.post_layout_excerpt.post_format_audio .post_featured.without_thumb,
+.post_layout_excerpt.post_format_gallery .post_featured.without_thumb {
+  display: block;
+}
+
+.post_layout_excerpt .post_header {
+  margin: 0;
+  position: relative;
+}
+
+.post_layout_excerpt .date-style + .post_header,
+.post_layout_excerpt .date-style + .post_content {
+  margin-top: 1em;
+}
+
+.post_layout_excerpt .post_header .post_price {
+  width: auto;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  font-size: 2.5em;
+  line-height: 1.5em;
+}
+
+.post_layout_excerpt .post_title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1em;
+}
+
+.post_layout_excerpt .post_title a * {
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.post_layout_excerpt .post_meta {
+  margin-top: 1.2rem;
+}
+
+.post_layout_excerpt .post_header + .post_content {
+  margin-top: 1.55rem;
+}
+
+.post_layout_excerpt .bottom-info .more-link {
+  display: inline-block;
+  margin: 0 6px 0 0;
+  padding: 0 1.7em;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 12px;
+}
+
+.post_layout_excerpt .slider_container.slider_pagination_pos_bottom .swiper-pagination-bullets {
+  display: none;
+}
+
+.post_layout_excerpt blockquote {
+  margin: 0;
+}
+
+body[class*="blog_style_classic"] .post_layout_excerpt,
+body[class*="blog_style_masonry"] .post_layout_excerpt {
+  margin-bottom: 3em;
+}
+
+.bottom-info .post_meta_item {
+  padding: 0 2.7em;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  display: inline-block;
+  height: 45px;
+  line-height: 45px;
+}
+
+.bottom-info .post_meta_label {
+  display: none;
+}
+
+.bottom-info {
+  margin-top: 1.85em;
+}
+
+.bottom-info .post_meta_item + .post_meta_item {
+  margin-left: 6px;
+}
+
+.bottom-info .post_meta .post_meta_item:after,
+.bottom-info .post_meta .post_meta_item.post_edit:after,
+.bottom-info .post_meta .vc_inline-link:after {
+  display: none;
+}
+
+.post_layout_excerpt.post_format_gallery .post_featured.without_thumb .date-style,
+.post_featured.with_thumb .date-style {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  z-index: 9;
+}
+
+.date-style {
+  width: 82px;
+  height: 82px;
+  display: block;
+  -webkit-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 82px;
+  text-align: center;
+  -webkit-box-shadow: 8px 3px 0 0 rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 8px 3px 0 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 8px 3px 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.date-style .wrap {
+  line-height: 1em;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.date-style .d {
+  font-size: 34px;
+}
+
+.date-style .m {
+  font-size: 16px;
+  line-height: 18px;
+  display: block;
+}
+
+.post_layout_excerpt .bottom-info .post_meta {
+  margin: 0;
+  line-height: 1em;
+  display: inline-block;
+}
+
+.post_layout_excerpt.format-video .post_featured.post_video_play .mask {
+  opacity: 0;
+}
+
+.post_layout_excerpt.post_format_video .without_thumb {
+  -webkit-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+
+.post_layout_excerpt.post_format_video .without_thumb .date-style,
+.post_layout_excerpt.post_format_audio .without_thumb .date-style {
+  margin-top: 1.4em;
+  margin-bottom: 3px;
+}
+
+.post_layout_excerpt.post_format_video .without_thumb.post_featured,
+.post_layout_excerpt.post_format_audio .without_thumb.post_featured {
+  margin-bottom: 1.2em;
+}
+
+/*# sourceMappingURL=excerpt.css.map */

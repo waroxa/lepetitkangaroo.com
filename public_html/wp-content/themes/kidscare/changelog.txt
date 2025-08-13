@@ -1,0 +1,155 @@
+Version v.3.2.4
+    Added:
+        - WP 6.7.2 compatibility
+
+    Fixed:
+        - Improve theme styles
+        - Update plugins to their latest version
+
+    Changed:
+        - Update demo data
+
+Version v.3.2.3
+    Added:
+        - WP 6.6.2 compatibility
+
+    Fixed:
+        - Improve theme styles
+        - Update plugins to their latest version
+        - Scripts libraries are updated
+
+    Changed:
+        - Update demo data
+
+Version v.3.2.2
+    Added:
+        - WP 6.5.4 compatibility
+
+    Fixed:
+        - Improve theme styles
+
+    Changed: 
+        - Update demo data
+    
+    Removed :
+        - elegro Crypto Payment plugin
+
+Version v.3.2.1
+    Changed:
+        - Update demo data
+
+Version v.3.2.0
+    Added:
+        - QuickCal plugin
+        - TikTok icon
+        - Compatibility with The GDPR Framework plugin
+
+    Fixed:
+        - Compatibility with Elementor
+
+    Removed: 
+        - Booked plugin
+        - Cookie Information plugin
+    
+Version v.3.1.0
+    Added:
+        - Compatibility with QuickCal plugin
+        - Twitter (x) icons
+
+    Fixed:
+        - Improve minor theme styles
+
+Version v.3.0.11
+    Added:
+        - WP 6.3.1 compatibility
+        - TikTok Icons
+
+    Fixed:
+        - Improve theme styles
+        - Scripts libraries are updated
+
+Version v.3.0.10
+    Added:
+        - WP 6.1.1 compatibility
+        - Compatibility with Elementor 3.5+
+
+    Fixed:
+        - Theme styles
+
+Version v.3.0.9
+    Added:
+        - Compatibility with WP 6.0.2
+    Fixed:
+        - Update plugins to their latest versions
+        - Improve theme styles
+    Changed:
+        - Update demo data
+
+Version v.3.0.8
+	Fixed:
+    	- Compatibility with WP 6.0.1
+        - Update plugins to their latest versions
+        - Theme styles
+	Changed:
+        - Update demo data
+    Removed:
+    	- Gplus links
+
+Version v.3.0.7
+	Fixed:
+    	- Compatibility with WP 5.9
+		- Update plugins to their latest versions
+		- Theme styles
+	Changed:
+        - Update demo data
+
+Version v.3.0.6
+    Fixed: 
+        - Update plugins to their latest versions
+		- Theme styles
+	Added:
+		- Date and Time Picker by Input WP plugin
+		- ThemeREX Updater plugin
+		- PHP 8.0 compatibility
+	Changed:
+        - Update demo data
+	Removed:
+		- Contact Form 7 Datepicker
+		- Twitter widget from demo data
+
+Version v.3.0.5
+	Fixed:
+		- Update plugins to their latest versions
+		- Add plugin Elegro Payment
+		- Add plugin TRX Updater
+		- Compatibility with Events Calendar 5.0.1
+		- Themerex Addons vulnarability fixed
+
+Version v.3.0.4
+	Fixed:
+		- Update plugins to their latest versions
+		- Compatibility with WP 5.3
+		- Elementor 2.7.5
+
+Version - v.3.0.3
+    Fixed:
+        - Console error in widgets.php
+
+Version - v.3.0.2
+    Fixed:
+        - Compatibility Revolution Slider 6.0.8
+        - Compatibility with Elementor 2.6.7
+
+Version - v.3.0.1
+    Fixed:
+        - Compatibility with WooCommerce 3.6.4
+        - Compatibility with WP 5.2
+        - Update plugins to their latest versions
+        - Escaped dynamic output
+        - Scripts libraries updated
+        - Compatibility with PHP 7.3
+
+Release – v.3.0 (1.0.59)
+    - Plugin TRX Addons has been modified.
+        1. Elementor 2.5.0 - Fix
+        

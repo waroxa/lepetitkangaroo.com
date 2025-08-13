@@ -1,0 +1,28 @@
+[31-Jul-2025 13:30:30 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[31-Jul-2025 13:30:30 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[31-Jul-2025 16:57:16 UTC] PHP Warning:  Attempt to read property "order" on bool in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/add-ons/woocommerce-payments/lib/class-static-functions.php on line 264
+[31-Jul-2025 16:57:16 UTC] order missing, remove it3088
+[01-Aug-2025 16:33:46 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[01-Aug-2025 16:33:46 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[01-Aug-2025 16:34:25 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[01-Aug-2025 16:34:25 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[01-Aug-2025 16:34:40 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[01-Aug-2025 16:34:40 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[02-Aug-2025 02:02:27 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[02-Aug-2025 02:02:27 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[02-Aug-2025 02:03:06 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[02-Aug-2025 02:03:06 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[03-Aug-2025 02:50:04 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[03-Aug-2025 02:50:04 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[05-Aug-2025 23:37:32 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[05-Aug-2025 23:37:32 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[12-Aug-2025 15:12:07 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[12-Aug-2025 15:12:07 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[12-Aug-2025 15:12:24 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[12-Aug-2025 15:12:24 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[12-Aug-2025 15:12:51 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[12-Aug-2025 15:12:51 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[12-Aug-2025 15:14:52 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[12-Aug-2025 15:14:52 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
+[12-Aug-2025 15:15:03 UTC] PHP Warning:  Undefined variable $calendar_id in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 9
+[12-Aug-2025 15:15:03 UTC] PHP Warning:  Undefined variable $customer_phone in /home/customer/www/lepetitkangaroo.com/public_html/wp-content/plugins/quickcal/includes/ajax/admin/user-info.php on line 126
