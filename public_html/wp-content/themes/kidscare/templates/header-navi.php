@@ -27,37 +27,37 @@
 				</div>
 			</div><div class="sc_layouts_column sc_layouts_column_align_right sc_layouts_column_icons_position_left sc_layouts_column_fluid column-3_4">
 				<div class="sc_layouts_item">
-<?php
-// Main menu
-?>
-<nav class="main-nav" itemscope itemtype="//schema.org/SiteNavigationElement">
-<?php
-wp_nav_menu(
-array(
-'theme_location' => 'menu_main',
-'container'      => false,
-'walker'         => class_exists( 'Kidscare_Main_Nav_Walker' ) ? new Kidscare_Main_Nav_Walker() : '',
-)
-);
-?>
-</nav>
-                                </div>
-                                <div class="sc_layouts_item mobile-menu-button">
-                                        <button class="mobile-menu-toggle" aria-label="<?php esc_attr_e( 'Menu', 'kidscare' ); ?>">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                        </button>
-                                </div>
-                                <?php
-                                if ( kidscare_exists_trx_addons() ) {
-                                        ?>
-                                        <div class="sc_layouts_item">
-                                                <?php
-                                                // Display search field
-                                                do_action(
-                                                        'kidscare_action_search',
-                                                        array(
+					<?php
+					// Main menu
+					$kidscare_menu_main = kidscare_get_nav_menu( 'menu_main' );
+					// Show any menu if no menu selected in the location 'menu_main'
+					if ( kidscare_get_theme_setting( 'autoselect_menu' ) && empty( $kidscare_menu_main ) ) {
+						$kidscare_menu_main = kidscare_get_nav_menu();
+					}
+					kidscare_show_layout(
+						$kidscare_menu_main,
+						'<nav class="menu_main_nav_area sc_layouts_menu sc_layouts_menu_default sc_layouts_hide_on_mobile"'
+							. ' itemscope itemtype="//schema.org/SiteNavigationElement"'
+							. '>',
+						'</nav>'
+					);
+					// Mobile menu button
+					?>
+					<div class="sc_layouts_iconed_text sc_layouts_menu_mobile_button">
+						<a class="sc_layouts_item_link sc_layouts_iconed_text_link" href="#">
+							<span class="sc_layouts_item_icon sc_layouts_iconed_text_icon trx_addons_icon-menu"></span>
+						</a>
+					</div>
+				</div>
+				<?php
+				if ( kidscare_exists_trx_addons() ) {
+					?>
+					<div class="sc_layouts_item">
+						<?php
+						// Display search field
+						do_action(
+							'kidscare_action_search',
+							array(
 								'style' => 'fullscreen',
 								'class' => 'header_search',
 								'ajax'  => false
