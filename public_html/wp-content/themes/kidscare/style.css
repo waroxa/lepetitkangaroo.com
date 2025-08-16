@@ -9863,4 +9863,11 @@ figcaption:has(.mfp-title:empty + .mfp-counter:empty) {
   left: -18px;
 }
 
+/* Hide mobile menu button on desktop screens */
+@media (min-width: 1024px) {
+  .sc_layouts_menu_mobile_button {
+    display: none !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
