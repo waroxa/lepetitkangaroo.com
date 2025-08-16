@@ -1742,7 +1742,7 @@ body.body_style_boxed:not(.expand_content) [class*="content_wrap"] > .content {	
 
 .top_panel.with_bg_image:before {
 	content:' ';
-	@include bg-mask(#000, 0.7, -1);
+	@include bg-mask(#9e685a, 0.7, -1);
 }
 
 
@@ -1771,7 +1771,7 @@ div#background_video video {
 	display:none;
 }
 .top_panel.with_bg_video {
-	background: #000;
+	background: #9e685a;
 }
 
 
@@ -1799,7 +1799,7 @@ div#background_video video {
 }
 .header_position_under .top_panel_mask {
 	display:none;
-	background-color:#000;
+	background-color:#9e685a;
 	opacity: 0;
 	pointer-events: none;
 	@include abs-cover(9999);
@@ -2103,7 +2103,7 @@ body.mobile_layout.menu_style_right .menu_side_wrap .menu_side_button:hover { le
 
 .menu_mobile_overlay {
 	display:none !important;
-	@include fixed-mask(#000, 0.8);
+	@include fixed-mask(#9e685a, 0.8);
 	z-index:100000;
 }
 
@@ -2659,7 +2659,7 @@ div.kidscare_tabs .nav-links {
 }
 .banner_with_image:before {
 	content: ' ';
-	@include bg-mask(#000, 0.3, 1);
+	@include bg-mask(#9e685a, 0.3, 1);
 	@include transition-property(background-color);
 }
 .banner_with_image:hover:before {
@@ -3195,7 +3195,7 @@ body .mejs-time {
 .format-video .post_featured.post_video_play .mask,
 .sc_layouts_blog_item_featured .post_featured.post_video_play .mask {
 	opacity: 1;
-	background-color:#000;
+	background-color:#9e685a;
 }
 .format-video .post_featured.post_video_play .post_video_hover,
 .sc_layouts_blog_item_featured .post_featured.post_video_play .post_video_hover {
@@ -3734,7 +3734,7 @@ div.esg-filters,
 	@include abs-lc;
 	@include square(4em);
 	@include border-round;
-    border: 1px solid #000;
+    border: 1px solid #9e685a;
 	background-color: #333;
 	color: #fff;
 }

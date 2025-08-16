@@ -3320,7 +3320,7 @@ div#background_video video {
 }
 
 .top_panel.with_bg_video {
-  background: #000;
+  background: #9e685a;
 }
 
 /* Header positions */
@@ -3356,7 +3356,7 @@ div#background_video video {
 
 .header_position_under .top_panel_mask {
   display: none;
-  background-color: #000;
+  background-color: #9e685a;
   opacity: 0;
   pointer-events: none;
   position: absolute;
@@ -5240,7 +5240,7 @@ body .mejs-time {
 .format-video .post_featured.post_video_play .mask,
 .sc_layouts_blog_item_featured .post_featured.post_video_play .mask {
   opacity: 1;
-  background-color: #000;
+  background-color: #9e685a;
 }
 
 .format-video .post_featured.post_video_play .post_video_hover,
@@ -5935,7 +5935,7 @@ div.esg-filters,
   -webkit-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 1px solid #9e685a;
   background-color: #333;
   color: #fff;
 }

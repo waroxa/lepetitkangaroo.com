@@ -292,7 +292,7 @@ if ( ! function_exists( 'kidscare_front_page_options_title' ) ) {
 				'front_page_title_bg_color'        => array(
 					'title'      => esc_html__( 'Custom color', 'kidscare' ),
 					'desc'       => wp_kses_data( __( 'Custom background color for this section', 'kidscare' ) ),
-					'std'        => KIDSCARE_THEME_FREE ? '#000' : '',
+					'std'        => KIDSCARE_THEME_FREE ? '#9e685a' : '',
 					'refresh'    => false,
 					'dependency' => array(
 						'front_page_title_bg_color_type' => array( 'custom' ),
@@ -606,7 +606,7 @@ if ( ! function_exists( 'kidscare_front_page_options_about' ) ) {
 				'front_page_about_bg_color'        => array(
 					'title'      => esc_html__( 'Custom color', 'kidscare' ),
 					'desc'       => wp_kses_data( __( 'Custom background color for this section', 'kidscare' ) ),
-					'std'        => KIDSCARE_THEME_FREE ? '#000' : '',
+					'std'        => KIDSCARE_THEME_FREE ? '#9e685a' : '',
 					'refresh'    => false,
 					'dependency' => array(
 						'front_page_about_bg_color_type' => array( 'custom' ),
@@ -761,7 +761,7 @@ if ( ! function_exists( 'kidscare_front_page_options_team' ) ) {
 				'front_page_team_bg_color'                => array(
 					'title'      => esc_html__( 'Custom color', 'kidscare' ),
 					'desc'       => wp_kses_data( __( 'Custom background color for this section', 'kidscare' ) ),
-					'std'        => KIDSCARE_THEME_FREE ? '#000' : '',
+					'std'        => KIDSCARE_THEME_FREE ? '#9e685a' : '',
 					'refresh'    => false,
 					'dependency' => array(
 						'front_page_team_bg_color_type' => array( 'custom' ),
@@ -1071,7 +1071,7 @@ if ( ! function_exists( 'kidscare_front_page_options_blog' ) ) {
 				'front_page_blog_bg_color'                => array(
 					'title'      => esc_html__( 'Custom color', 'kidscare' ),
 					'desc'       => wp_kses_data( __( 'Custom background color for this section', 'kidscare' ) ),
-					'std'        => KIDSCARE_THEME_FREE ? '#000' : '',
+					'std'        => KIDSCARE_THEME_FREE ? '#9e685a' : '',
 					'refresh'    => false,
 					'dependency' => array(
 						'front_page_blog_bg_color_type' => array( 'custom' ),
@@ -1224,7 +1224,7 @@ if ( ! function_exists( 'kidscare_front_page_options_subscribe' ) ) {
 				'front_page_subscribe_bg_color'       => array(
 					'title'      => esc_html__( 'Custom color', 'kidscare' ),
 					'desc'       => wp_kses_data( __( 'Custom background color for this section', 'kidscare' ) ),
-					'std'        => KIDSCARE_THEME_FREE ? '#000' : '',
+					'std'        => KIDSCARE_THEME_FREE ? '#9e685a' : '',
 					'refresh'    => false,
 					'dependency' => array(
 						'front_page_subscribe_bg_color_type' => array( 'custom' ),
@@ -1404,7 +1404,7 @@ if ( ! function_exists( 'kidscare_front_page_options_googlemap' ) ) {
 				'front_page_googlemap_bg_color'     => array(
 					'title'      => esc_html__( 'Custom color', 'kidscare' ),
 					'desc'       => wp_kses_data( __( 'Custom background color for this section', 'kidscare' ) ),
-					'std'        => KIDSCARE_THEME_FREE ? '#000' : '',
+					'std'        => KIDSCARE_THEME_FREE ? '#9e685a' : '',
 					'refresh'    => false,
 					'dependency' => array(
 						'front_page_googlemap_bg_color_type' => array( 'custom' ),
@@ -1577,7 +1577,7 @@ if ( ! function_exists( 'kidscare_front_page_options_contacts' ) ) {
 				'front_page_contacts_bg_color'       => array(
 					'title'      => esc_html__( 'Custom color', 'kidscare' ),
 					'desc'       => wp_kses_data( __( 'Custom background color for this section', 'kidscare' ) ),
-					'std'        => KIDSCARE_THEME_FREE ? '#000' : '',
+					'std'        => KIDSCARE_THEME_FREE ? '#9e685a' : '',
 					'refresh'    => false,
 					'dependency' => array(
 						'front_page_contacts_bg_color_type' => array( 'custom' ),
