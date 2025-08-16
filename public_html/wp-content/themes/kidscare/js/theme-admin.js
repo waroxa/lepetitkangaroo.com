@@ -761,7 +761,7 @@ jQuery( document ).ready(
 			fld.css(
 				{
 					'backgroundColor': clr,
-					'color': hsb['b'] < 70 ? '#fff' : '#000'
+					'color': hsb['b'] < 70 ? '#fff' : '#9e685a'
 				}
 			);
 		}

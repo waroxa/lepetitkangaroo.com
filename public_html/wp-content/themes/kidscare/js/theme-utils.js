@@ -610,7 +610,7 @@
 		var id         = arguments[0] !== undefined ? arguments[0] : "iColorPicker" + Math.round( Math.random() * 1000 );
 		var colors     = arguments[1] !== undefined ? arguments[1] :
 		'#f00,#ff0,#0f0,#0ff,#00f,#f0f,#fff,#ebebeb,#e1e1e1,#d7d7d7,#cccccc,#c2c2c2,#b7b7b7,#acacac,#a0a0a0,#959595,'
-		+ '#ee1d24,#fff100,#00a650,#00aeef,#2f3192,#ed008c,#898989,#7d7d7d,#707070,#626262,#555,#464646,#363636,#262626,#111,#000,'
+		+ '#ee1d24,#fff100,#00a650,#00aeef,#2f3192,#ed008c,#898989,#7d7d7d,#707070,#626262,#555,#464646,#363636,#262626,#111,#9e685a,'
 		+ '#f7977a,#fbad82,#fdc68c,#fff799,#c6df9c,#a4d49d,#81ca9d,#7bcdc9,#6ccff7,#7ca6d8,#8293ca,#8881be,#a286bd,#bc8cbf,#f49bc1,#f5999d,'
 		+ '#f16c4d,#f68e54,#fbaf5a,#fff467,#acd372,#7dc473,#39b778,#16bcb4,#00bff3,#438ccb,#5573b7,#5e5ca7,#855fa8,#a763a9,#ef6ea8,#f16d7e,'
 		+ '#ee1d24,#f16522,#f7941d,#fff100,#8fc63d,#37b44a,#00a650,#00a99e,#00aeef,#0072bc,#0054a5,#2f3192,#652c91,#91278f,#ed008c,#ee105a,'
@@ -626,12 +626,12 @@
 		}
 		tbl += '</tr></thead><tbody>'
 			+ '<tr style="height:60px;">'
-			+ '<td colspan="8" id="' + id + '_colorPreview" style="vertical-align:middle;text-align:center;border:1px solid #000;background:#fff;">'
-			+ '<input style="width:55px;color:#000;border:1px solid rgb(0, 0, 0);padding:5px;background-color:#fff;font:11px Arial, Helvetica, sans-serif;" maxlength="7" />'
+			+ '<td colspan="8" id="' + id + '_colorPreview" style="vertical-align:middle;text-align:center;border:1px solid #9e685a;background:#fff;">'
+			+ '<input style="width:55px;color:#9e685a;border:1px solid #9e685a;padding:5px;background-color:#fff;font:11px Arial, Helvetica, sans-serif;" maxlength="7" />'
 			+ '<a href="#" id="' + id + '_moreColors" class="iColorPicker_moreColors"></a>'
 			+ '</td>'
-			+ '<td colspan="8" id="' + id + '_colorOriginal" style="vertical-align:middle;text-align:center;border:1px solid #000;background:#fff;">'
-			+ '<input style="width:55px;color:#000;border:1px solid rgb(0, 0, 0);padding:5px;background-color:#fff;font:11px Arial, Helvetica, sans-serif;" readonly="readonly" />'
+			+ '<td colspan="8" id="' + id + '_colorOriginal" style="vertical-align:middle;text-align:center;border:1px solid #9e685a;background:#fff;">'
+			+ '<input style="width:55px;color:#9e685a;border:1px solid #9e685a;padding:5px;background-color:#fff;font:11px Arial, Helvetica, sans-serif;" readonly="readonly" />'
 			+ '</td>'
 			+ '</tr></tbody></table>';
 
@@ -745,7 +745,7 @@
 						{
 							'width':'12px',
 							'height':'14px',
-							'border':'1px solid #000',
+							'border':'1px solid #9e685a',
 							'cursor':'pointer'
 						}
 					);
@@ -769,7 +769,7 @@
 				{
 					'width':'12px',
 					'height':'14px',
-					'border':'1px solid #000',
+					'border':'1px solid #9e685a',
 					'cursor':'pointer'
 				}
 			);
