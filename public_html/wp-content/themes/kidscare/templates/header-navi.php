@@ -41,16 +41,23 @@ array(
 );
 ?>
 </nav>
-				</div>
-				<?php
-				if ( kidscare_exists_trx_addons() ) {
-					?>
-					<div class="sc_layouts_item">
-						<?php
-						// Display search field
-						do_action(
-							'kidscare_action_search',
-							array(
+                                </div>
+                                <div class="sc_layouts_item mobile-menu-button">
+                                        <button class="mobile-menu-toggle" aria-label="<?php esc_attr_e( 'Menu', 'kidscare' ); ?>">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                        </button>
+                                </div>
+                                <?php
+                                if ( kidscare_exists_trx_addons() ) {
+                                        ?>
+                                        <div class="sc_layouts_item">
+                                                <?php
+                                                // Display search field
+                                                do_action(
+                                                        'kidscare_action_search',
+                                                        array(
 								'style' => 'fullscreen',
 								'class' => 'header_search',
 								'ajax'  => false

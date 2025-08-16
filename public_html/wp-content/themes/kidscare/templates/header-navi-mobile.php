@@ -7,11 +7,10 @@
  * @since KIDSCARE 1.0
  */
 ?>
-<div class="menu_mobile_overlay"></div>
-<div class="menu_mobile menu_mobile_<?php echo esc_attr( kidscare_get_theme_option( 'menu_mobile_fullscreen' ) > 0 ? 'fullscreen' : 'narrow' ); ?> scheme_dark">
-	<div class="menu_mobile_inner">
-		<a class="menu_mobile_close theme_button_close"><span class="theme_button_close_icon"></span></a>
-		<?php
+<div class="mobile-drawer">
+        <div class="mobile-drawer-inner">
+                <a class="mobile-drawer-close theme_button_close"><span class="theme_button_close_icon"></span></a>
+                <?php
 
 		// Logo
 		set_query_var( 'kidscare_logo_args', array( 'type' => 'mobile' ) );
