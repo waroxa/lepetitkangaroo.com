@@ -34,22 +34,17 @@
 					if ( kidscare_get_theme_setting( 'autoselect_menu' ) && empty( $kidscare_menu_main ) ) {
 						$kidscare_menu_main = kidscare_get_nav_menu();
 					}
-					kidscare_show_layout(
-						$kidscare_menu_main,
-						'<nav class="menu_main_nav_area sc_layouts_menu sc_layouts_menu_default sc_layouts_hide_on_mobile"'
-							. ' itemscope itemtype="//schema.org/SiteNavigationElement"'
-							. '>',
-						'</nav>'
-					);
-					// Mobile menu button
-					?>
-					<div class="sc_layouts_iconed_text sc_layouts_menu_mobile_button">
-						<a class="sc_layouts_item_link sc_layouts_iconed_text_link" href="#">
-							<span class="sc_layouts_item_icon sc_layouts_iconed_text_icon trx_addons_icon-menu"></span>
-						</a>
-					</div>
-				</div>
-				<?php
+                                        kidscare_show_layout(
+                                                $kidscare_menu_main,
+                                                '<nav class="menu_main_nav_area sc_layouts_menu sc_layouts_menu_default sc_layouts_hide_on_mobile"'
+                                                        . ' itemscope itemtype="//schema.org/SiteNavigationElement"'
+                                                        . '>',
+                                                '</nav>'
+                                        );
+                                        // Mobile menu button removed - mobile navigation handled via header-mobile.php
+                                        ?>
+                                </div>
+                                <?php
 				if ( kidscare_exists_trx_addons() ) {
 					?>
 					<div class="sc_layouts_item">
