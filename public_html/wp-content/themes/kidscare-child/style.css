@@ -153,3 +153,8 @@ body, a, p, h1, h2, h3, h4, h5, h6 {
     transform: translateY(1px);
   }
 }
+
+@media (min-width:1024px) and (max-width:1280px){
+  .main-nav__list { gap:20px; }       /* was 40px */
+  .main-nav__link { font-size:14px; } /* was 16px  */
+}
