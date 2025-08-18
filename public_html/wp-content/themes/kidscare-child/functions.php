@@ -11,4 +11,13 @@ function kidscare_child_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'kidscare_child_scripts' );
 
+function kidscare_child_disable_menu_fallback() {
+    wp_dequeue_script( 'kidscare-init' );
+    wp_deregister_script( 'kidscare-init' );
+    wp_dequeue_script( 'superfish' );
+    wp_deregister_script( 'superfish' );
+}
+
+add_action( 'wp_enqueue_scripts', 'kidscare_child_disable_menu_fallback', 1001 );
+
 ?>
