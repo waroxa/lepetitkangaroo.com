@@ -6,6 +6,37 @@
  * @subpackage KIDSCARE Child
  */
 ?>
+<?php
+/**
+ * Temporary extra menu for comparison.
+ * Displays the site's primary menu with logo above the existing custom menu.
+ */
+?>
+<header class="comparison-header">
+  <div class="comparison-header__inner">
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="comparison-header__logo">
+      <?php
+      if ( function_exists( 'the_custom_logo' ) && has_custom_logo() ) {
+        the_custom_logo();
+      } else {
+        echo '<span>' . esc_html( get_bloginfo( 'name' ) ) . '</span>';
+      }
+      ?>
+    </a>
+    <?php
+    if ( has_nav_menu( 'menu_main' ) ) {
+      wp_nav_menu( array(
+        'theme_location' => 'menu_main',
+        'container'      => 'nav',
+        'container_class'=> 'comparison-nav',
+        'menu_class'     => 'comparison-nav__list',
+        'fallback_cb'    => false,
+      ) );
+    }
+    ?>
+  </div>
+</header>
+
 <header class="site-header">
   <div class="site-header__inner">
     <div class="site-header__left">
