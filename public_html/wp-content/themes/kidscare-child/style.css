@@ -17,7 +17,11 @@ body, a, p, h1, h2, h3, h4, h5, h6 {
     color: #9e685a !important;
 }
 
-.site-header { display: none; }
+/* .site-header { display: none; } */
+
+@media (max-width: 1023px) {
+  .site-header { display: none; }
+}
 
 :root {
   --pink-bg: #D9A39E;
